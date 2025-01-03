@@ -21,15 +21,30 @@ class SplashScreen extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                Image.asset("assets/images/ic_logo.png"),
-                const SizedBox(height: 10,),
+                Image.asset(
+                  "assets/images/ic_logo.png",
+                  color: Colors.white,
+                  width: 120,
+                  height: 120,
+                ),
+                const SizedBox(
+                  height: 10,
+                ),
                 Text(
                   "Welcome to GroMart Driver".tr,
-                  style: TextStyle(color: themeChange.getThem() ? AppThemeData.grey50 : AppThemeData.grey50, fontSize: 28, fontFamily: AppThemeData.bold),
+                  style: TextStyle(
+                      color: themeChange.getThem()
+                          ? AppThemeData.grey50
+                          : AppThemeData.grey50,
+                      fontSize: 28,
+                      fontFamily: AppThemeData.bold),
                 ),
                 Text(
                   "Your Favorite Items Delivered Fast!".tr,
-                  style: TextStyle(color: themeChange.getThem() ? AppThemeData.grey50 : AppThemeData.grey50),
+                  style: TextStyle(
+                      color: themeChange.getThem()
+                          ? AppThemeData.grey50
+                          : AppThemeData.grey50),
                 ),
               ],
             ),

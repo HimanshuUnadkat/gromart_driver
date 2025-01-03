@@ -1,19 +1,119 @@
 {
   "project_info": {
-    "project_number": "YOUR_PROJECT_NUMBER",
-    "firebase_url": "https://YOUR_PROJECT_ID.firebaseio.com",
-    "project_id": "YOUR_PROJECT_ID",
-    "storage_bucket": "YOUR_PROJECT_ID.appspot.com"
+    "project_number": "1076896286143",
+    "firebase_url": "https://gardengree-2b915-default-rtdb.firebaseio.com",
+    "project_id": "gardengree-2b915",
+    "storage_bucket": "gardengree-2b915.firebasestorage.app"
   },
-  "api_key": [
+  "client": [
     {
-      "current_key": "YOUR_FIREBASE_API_KEY"
+      "client_info": {
+        "mobilesdk_app_id": "1:1076896286143:android:5fe954732462a534554d0a",
+        "android_client_info": {
+          "package_name": "com.gromart.customer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1076896286143-94fk9bcifhjp6h5q9qgo1hvpbrlut9np.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPVOuje8BKUMYWmzuhXrVGdNk3Eud3FWM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1076896286143-94fk9bcifhjp6h5q9qgo1hvpbrlut9np.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1076896286143-gmai9pgvep47unepmfvtaogslgaeg4ra.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.siddhi.gromart.customer"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076896286143:android:88889ace74bba96c554d0a",
+        "android_client_info": {
+          "package_name": "com.gromart.driver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1076896286143-94fk9bcifhjp6h5q9qgo1hvpbrlut9np.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPVOuje8BKUMYWmzuhXrVGdNk3Eud3FWM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1076896286143-94fk9bcifhjp6h5q9qgo1hvpbrlut9np.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1076896286143-gmai9pgvep47unepmfvtaogslgaeg4ra.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.siddhi.gromart.customer"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076896286143:android:f18716b627fbc7c1554d0a",
+        "android_client_info": {
+          "package_name": "com.gromart.store"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1076896286143-94fk9bcifhjp6h5q9qgo1hvpbrlut9np.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPVOuje8BKUMYWmzuhXrVGdNk3Eud3FWM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1076896286143-94fk9bcifhjp6h5q9qgo1hvpbrlut9np.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1076896286143-gmai9pgvep47unepmfvtaogslgaeg4ra.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.siddhi.gromart.customer"
+              }
+            }
+          ]
+        }
+      }
     }
   ],
-  "services": {
-    "appinvite_service": {
-      "other_platform_oauth_client": []
-    }
-  },
   "configuration_version": "1"
 }

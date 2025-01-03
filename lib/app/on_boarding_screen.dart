@@ -37,7 +37,8 @@ class OnBoardingScreen extends StatelessWidget {
                       children: [
                         InkWell(
                           onTap: () {
-                            Preferences.setBoolean(Preferences.isFinishOnBoardingKey, true);
+                            Preferences.setBoolean(
+                                Preferences.isFinishOnBoardingKey, true);
                             Get.offAll(const LoginScreen());
                           },
                           child: Padding(
@@ -48,7 +49,12 @@ class OnBoardingScreen extends StatelessWidget {
                               children: [
                                 Text(
                                   "Skip".tr,
-                                  style: TextStyle(color: themeChange.getThem() ? AppThemeData.grey800 : AppThemeData.grey800, fontSize: 16, fontFamily: AppThemeData.bold),
+                                  style: TextStyle(
+                                      color: themeChange.getThem()
+                                          ? AppThemeData.grey800
+                                          : AppThemeData.grey800,
+                                      fontSize: 16,
+                                      fontFamily: AppThemeData.bold),
                                 ),
                                 const Icon(Icons.chevron_right)
                               ],
@@ -76,20 +82,29 @@ class OnBoardingScreen extends StatelessWidget {
                                   crossAxisAlignment: CrossAxisAlignment.center,
                                   children: [
                                     Text(
-                                      controller.onBoardingList[index].title.toString().tr,
+                                      controller.onBoardingList[index].title
+                                          .toString()
+                                          .tr,
                                       textAlign: TextAlign.center,
                                       style: TextStyle(
-                                        color: themeChange.getThem() ? AppThemeData.grey900 : AppThemeData.grey900,
+                                        color: themeChange.getThem()
+                                            ? AppThemeData.grey900
+                                            : AppThemeData.grey900,
                                         fontSize: 22,
                                         fontFamily: AppThemeData.bold,
                                         fontWeight: FontWeight.w400,
                                       ),
                                     ),
                                     Text(
-                                      controller.onBoardingList[index].description.toString().tr,
+                                      controller
+                                          .onBoardingList[index].description
+                                          .toString()
+                                          .tr,
                                       textAlign: TextAlign.center,
                                       style: TextStyle(
-                                        color: themeChange.getThem() ? AppThemeData.grey600 : AppThemeData.grey600,
+                                        color: themeChange.getThem()
+                                            ? AppThemeData.grey600
+                                            : AppThemeData.grey600,
                                         fontSize: 16,
                                         fontFamily: AppThemeData.regular,
                                         fontWeight: FontWeight.w400,
@@ -124,18 +139,25 @@ class OnBoardingScreen extends StatelessWidget {
                 Preferences.setBoolean(Preferences.isFinishOnBoardingKey, true);
                 Get.offAll(const LoginScreen());
               } else {
-                controller.pageController.jumpToPage(controller.selectedPageIndex.value + 1);
+                controller.pageController
+                    .jumpToPage(controller.selectedPageIndex.value + 1);
               }
             },
             child: Container(
-              color: controller.selectedPageIndex.value == 2 ? AppThemeData.driverApp300 : AppThemeData.grey900,
+              color: controller.selectedPageIndex.value == 2
+                  ? AppThemeData.driverApp300
+                  : AppThemeData.grey900,
               child: Padding(
                 padding: const EdgeInsets.symmetric(vertical: 14),
                 child: Text(
-                  controller.selectedPageIndex.value == 2 ? "Get Started" : "Next",
+                  controller.selectedPageIndex.value == 2
+                      ? "Get Started"
+                      : "Next",
                   textAlign: TextAlign.center,
                   style: TextStyle(
-                    color: themeChange.getThem() ? AppThemeData.grey50 : AppThemeData.grey50,
+                    color: themeChange.getThem()
+                        ? AppThemeData.grey50
+                        : AppThemeData.grey50,
                     fontSize: 16,
                     fontFamily: AppThemeData.medium,
                     fontWeight: FontWeight.w400,
