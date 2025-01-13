@@ -479,7 +479,7 @@ class DrawerView extends StatelessWidget {
                     ),
                     onTap: () {
                       Get.back();
-                      Share.share('Check out GroMart, your ultimate food delivery application! \n\nGoogle Play: ${Constant.googlePlayLink} \n\nApp Store: ${Constant.appStoreLink}',
+                      Share.share('Check out Garden Greens, your ultimate food delivery application! \n\nGoogle Play: ${Constant.googlePlayLink} \n\nApp Store: ${Constant.appStoreLink}',
                           subject: 'Look what I made!');
                     },
                   ),

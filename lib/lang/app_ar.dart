@@ -17,7 +17,7 @@ const Map<String, String> lnAr = {
   "Log In Using Your Mobile Number": "تسجيل الدخول باستخدام رقم الهاتف المحمول الخاص بك",
   "Enter your mobile number to quickly access your account and start managing your deliveries.": "أدخل رقم الهاتف المحمول الخاص بك للوصول بسرعة إلى حسابك والبدء في إدارة عمليات التسليم الخاصة بك.",
   "E-mail": "البريد الإلكتروني",
-  "Sign up now to start your journey as a GroMart driver and begin earning with every delivery.": "سجل الآن لبدء رحلتك كسائق GroMart وابدأ في الكسب مع كل عملية تسليم.",
+  "Sign up now to start your journey as a GroMart driver and begin earning with every delivery.": "سجل الآن لبدء رحلتك كسائق Garden Greens وابدأ في الكسب مع كل عملية تسليم.",
   "First Name": "الاسم الأول",
   "Enter First Name": "أدخل الاسم الأول",
   "Last Name": "الاسم الأخير",
@@ -184,6 +184,6 @@ const Map<String, String> lnAr = {
   "Please enter RazorPay account Id": "يرجى إدخال معرف حساب RazorPay",
   "Stripe Account Id": "معرف حساب Stripe",
   "Go to your Stripe account settings > Account details > Copy your account ID on the right-hand side. For example, acc_GLGeLkU2JUeyDZ": "انتقل إلى إعدادات حساب Stripe > تفاصيل الحساب > انسخ معرف حسابك على الجانب الأيمن. على سبيل المثال، acc_GLGeLkU2JUeyDZ",
-  "Welcome to GroMart Driver": "مرحبًا بك في GroMart Driver",
+  "Welcome to GroMart Driver": "مرحبًا بك في Garden Greens Driver",
   "Your Favorite Food Delivered Fast!": "توصيل طعامك المفضل بسرعة!",
 };

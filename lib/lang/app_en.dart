@@ -17,7 +17,7 @@ const Map<String, String> enUS = {
   "Log In Using Your Mobile Number": "Log In Using Your Mobile Number",
   "Enter your mobile number to quickly access your account and start managing your deliveries.": "Enter your mobile number to quickly access your account and start managing your deliveries.",
   "E-mail": "E-mail",
-  "Sign up now to start your journey as a GroMart driver and begin earning with every delivery.": "Sign up now to start your journey as a GroMart driver and begin earning with every delivery.",
+  "Sign up now to start your journey as a GroMart driver and begin earning with every delivery.": "Sign up now to start your journey as a Garden Greens driver and begin earning with every delivery.",
   "First Name": "First Name",
   "Enter First Name": "Enter First Name",
   "Last Name": "Last Name",
@@ -184,6 +184,6 @@ const Map<String, String> enUS = {
   "Please enter RazorPay account Id": "Please enter RazorPay account Id",
   "Stripe Account Id": "Stripe Account Id",
   "Go to your Stripe account settings > Account details > Copy your account ID on the right-hand side. For example, acc_GLGeLkU2JUeyDZ": "Go to your Stripe account settings > Account details > Copy your account ID on the right-hand side. For example, acc_GLGeLkU2JUeyDZ",
-  "Welcome to GroMart Driver": "Welcome to GroMart Driver",
+  "Welcome to GroMart Driver": "Welcome to Garden Greens Driver",
   "Your Favorite Food Delivered Fast!": "Your Favorite Food Delivered Fast!",
 };
